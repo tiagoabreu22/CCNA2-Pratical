@@ -1,0 +1,35 @@
+ip host SW1-Zg 172.20.7.65
+ipv6 host SW1-Zgv6 2001:A:0:6::1
+!
+ip host SW2-Zg 172.20.7.66
+ipv6 host SW2-Zgv2 2001:A:0:6::2
+!
+ip host MLS1-Zg 172.20.7.67
+ipv6 host MLS1-Zgv6 2001:A:0:6::3
+!
+ip host MLS2-Zg 172.20.7.68
+ipv6 host MLS2-Zg 2001:A:0:6::4
+!
+ip host VirtualMLS-Zg 172.20.7.95
+ipv6 host VirtualMLS-Zgv6 2001:A:0:6::F
+!
+ip host WLC1-Zg 172.20.7.94
+ipv6 host WLC1-Zgv6 2001:A:0:6::10
+!
+ip host AP1-Zg 172.20.7.5
+ipv6 host AP1-Zgv6 2001:A:0:5::50 
+!
+ip host DHCP-SRV 172.20.7.50
+ipv6 host DHCP-SRVv6 2001:A:0:10::50
+!
+!
+!
+!
+ip host SW1-Pl 172.20.11.106
+!
+ip host AP1-Pl 172.20.11.98
+!
+ip host SW1-St 172.20.12.234
+!
+ip host AP1-St 172.20.12.226
+!
